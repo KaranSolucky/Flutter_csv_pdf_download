@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:orient_technology/screen/home_screen.dart';
 
+import 'screen/splash_screen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
